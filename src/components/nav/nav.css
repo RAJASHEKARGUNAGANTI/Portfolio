@@ -11,7 +11,8 @@ nav{
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrod-filter: blur(15px);
+    /* backdrod-filter: blur(15px); */
+    backdrop-filter: blur(15px);
 }
 nav a {
     background: transparent;
@@ -25,6 +26,6 @@ nav a:hover{
     background: rgba(0,0,0,0.3);
 }
 nav a.active{
-    background: var(--color-bg);
-    color: var(--color-light);
+    background: var(--color-primary);
+    color: var(--color-bg);
 }
